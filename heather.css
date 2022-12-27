@@ -2,6 +2,22 @@ header{
     display: flex;
     align-items: center;
     font-size: 1.5rem;
+    
+   
+  }
+  header::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background-image: url(imagens/paperGround.jpg);
+    opacity: 0.19;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -100;
+    
+  
+
   }
   
   .heather-left{
@@ -13,22 +29,28 @@ header{
     padding: .5rem;
     border-right: 3px solid var(--detalhes);
     border-image: url(imagens/gold.jpg) 25 25;
+    
+
   }
   
   .weather-icon{
-    width: 5vw;
+    width: 4.5vw;
    object-fit: contain;
   }
   
   .weather-icon.large{
     width: 10vw;
    object-fit: contain;
+
   }
   
   .heather-current-temp{
     font-size: 2rem;
     font-weight: 600;
     margin-left: 1rem;
+ 
+
+   
   }
   
   .heather-rigth{
@@ -39,17 +61,24 @@ header{
     grid-template-columns: repeat(3,auto);
     grid-template-rows: repeat(2,auto);
     gap: 1.5vw;
+
+
+    
   }
+
   
   .info-group{
-  
+
     display: flex;
     flex-direction: column;
     align-items: center;
     
+
+    
   }
   
   .label{
+
     text-transform: uppercase;
     font-weight: 900;
     font-size: 0.9rem;
@@ -59,5 +88,6 @@ header{
   .value-sub-info{
     font-weight: 100;
     font-size: 0.70rem;
+    
    
   }
