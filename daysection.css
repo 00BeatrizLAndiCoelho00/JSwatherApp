@@ -1,0 +1,14 @@
+
+.hour-section{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+  
+  }
+  
+  .hour-row{
+    backdrop-filter: brightness(95%);
+  }
+  .hour-row:nth-child(2n){
+    backdrop-filter: saturate(80%);
+  }

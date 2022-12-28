@@ -1,0 +1,26 @@
+
+.day-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 6.5rem);
+    padding: 6rem;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .day-card{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2.6px solid var(--detalhes);
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    border-image: url(imagens/gold.jpg) 25 25;
+    font-weight: 900;
+  }
+  .day-card-day{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    color: var(--detalhesEscuros);
+  
+  }
