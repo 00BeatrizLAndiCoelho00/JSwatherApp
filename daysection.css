@@ -12,3 +12,7 @@
   .hour-row:nth-child(2n){
     backdrop-filter: saturate(80%);
   }
+
+  .hour-row > td{
+    padding: 0.25rem 0.5rem;
+  }

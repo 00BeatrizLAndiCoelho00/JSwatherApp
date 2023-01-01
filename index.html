@@ -642,8 +642,57 @@
     </tbody>
   </table>
 
-  <template></template>
+  <footer>
+    <p>Todos os direitos reserados a A. Beatriz Landi</p>
+  </footer>
+
+  <template id="day-card-template" >
+    <div class="day-card">
+      <img data-icon class="weather-icon" alt="curent wather">
+        <div class="day-card-day" data-date></div>
+        <div> <span data-temp></span> <span>&deg;</span></div>
+    </div>
+  </template>
+
+  <template id="hour-row-template" >
+    <tr class="hour-row">
+      <td>
+        <div class="info-group">
+          <div class="label" daa-day></div>
+          <div data-time> </div>
+        </div>
+      </td>
+      <td>
+        <img data-icon class="weather-icon">
+      </td>
+      <td>
+        <div class="info-group">
+          <div class="label">Temp</div>
+          <div> <span data-temp></span> <span>&deg;</span></div>
+        </div>
+      </td>
+      <td>
+        <div class="info-group">
+          <div class="label">FLTemp</div>
+          <div> <span data-fl-temp></span> <span>&deg;</span></div>
+   
+        </div>
+      </td>
+      <td>
+        <div class="info-group">
+          <div class="label">Wind</div>
+          <div> <span data-wind ></span>  <span class="value-sub-info">mph</span></div>
+        </div>
+      </td>
+      <td> <div class="info-group">
+        <div class="label">Preciptation</div>
+        <div> <span data-precipt ></span>  <span class="value-sub-info">in</span></div>
+      </div></td>
+      <td></td>
+    </tr>
+  </template>
 </main>
     <script type="module" src="/main.js"></script>
+    
   </body>
 </html>

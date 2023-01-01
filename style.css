@@ -39,7 +39,7 @@ body::before{
   content: " ";
   position: absolute;
   width: 100%;
-  height: 200%;
+  height: 210%;
   background-image: url(imagens/paperGround.jpg);
   opacity: 0.19;
   background-repeat: no-repeat;
@@ -53,5 +53,15 @@ body::before{
   overflow: hidden;
 }
 
+
+footer{
+  margin-top: 10vh;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1vh;
+  
+}
 
 
